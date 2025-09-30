@@ -1,0 +1,35 @@
+---
+title: "Open and Reproducible Research Outputs with Quarto"
+subtitle: Damien Dupré
+author: DCU Business School
+format: 
+  revealjs:
+    theme: [theme/metropolis.scss]
+    logo: img/logo.jpg
+
+title-slide-attributes:
+    data-background-iframe: theme/logo-fall/index.html
+preload-iframes: true
+# embed-resources: true
+footer: Damien Dupré - Open Research for Global Impact
+---
+
+## {background="#43464B"}
+
+<br>
+
+:::{.center}
+**Thanks for your attention **
+
+**and don't hesitate to ask if you have any questions!**
+
+![](https://damien-dupre.github.io/assets/404.gif){style="border-radius:10%;" width=50%}
+:::
+
+::: {layout="[ 0.47, 0.53 ]"}
+[{{< fa brands github >}} @damien-dupre](https://github.com/damien-dupre)  
+[{{< fa brands linkedin >}} @damien-dupre](https://www.linkedin.com/in/damien-dupre/) 
+
+[{{< fa globe >}} https://damien-dupre.github.io](https://damien-dupre.github.io)  
+[{{< fa paper-plane >}} damien.dupre@dcu.ie](mailto:damien.dupre@dcu.ie)
+:::
