@@ -7,6 +7,7 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/quarto-contrib/lordicon-bundle-1.9.0/bundle.js"></script>
 <link href="index_files/libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.31">
@@ -30,11 +31,78 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-efa60812037d7c44ed107b9b5f520ce7.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-attribution/attribution.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -123,6 +191,7 @@
       margin-right: 0; 
     }
   </style>
+  <script src="index_files/libs/freezeframe-5.0.2/freezeframe.min.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -141,6 +210,166 @@ DCU Business School
 </div>
 
 </section>
+<section id="research-outputs" class="slide level2">
+<h2>Research Outputs</h2>
+<p>Amongst many others, here are some of the outputs created by researchers:</p>
+<p><lord-icon src="https://cdn.lordicon.com/umuwriak.json" trigger="loop"></lord-icon> Research Papers, Books, or Reports</p>
+<p><lord-icon src="https://cdn.lordicon.com/umuwriak.json" trigger="loop"></lord-icon> Research Presentations (Conference or other Stakeholders)</p>
+<p><lord-icon src="https://cdn.lordicon.com/umuwriak.json" trigger="loop"></lord-icon> Personal, Project, or Conference Websites</p>
+<p>However, we are spending <strong>far too much time working on the content AND on the design</strong> of our communications.</p>
+</section>
+<section id="research-outputs-1" class="slide level2">
+<h2>Research Outputs</h2>
+<div class="center quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<p><span class="fragment" data-fragment-index="1">Dealing with many journal publication styles in Microsoft Word</span></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<p><span class="fragment" data-fragment-index="2">Fighting with alignments in Microsoft PowerPoint</span></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<p><span class="fragment" data-fragment-index="3">Struggling with web design in WordPress</span></p>
+</div>
+</div>
+</div>
+<div class="r-stack">
+<p><img data-src="img/me_1.png" class="fragment absolute" style="top: 300px; left: 0px; width: 400px; " data-fragment-index="1"></p>
+<p><img data-src="img/me_2.png" class="fragment" data-fragment-index="2" width="300"></p>
+<p><img data-src="img/me_3.png" class="fragment absolute" style="top: 300px; right: 0px; width: 400px; " data-fragment-index="3"></p>
+</div>
+<div class="attribution">
+<p>Images generated by ChatGPT-5 using my profile picture</p>
+</div>
+</section>
+<section id="what-is-quarto" class="slide level2">
+<h2>What is Quarto?</h2>
+<p>Quarto is an <strong>open-source scientific and technical publishing system</strong> that builds on standard markdown with features essential for scientific communication.</p>
+<div title="**In simple terms**">
+<div class="callout callout-tip callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><strong>In simple terms</strong></strong></p>
+</div>
+<div class="callout-content">
+<p><lord-icon src="https://cdn.lordicon.com/zllgguxq.json" trigger="loop"></lord-icon> It is a command line software that creates slick and nice documents.</p>
+<p><lord-icon src="https://cdn.lordicon.com/zllgguxq.json" trigger="loop"></lord-icon> It uses plain text but can output PDF, Word, PowerPoint, or HTML files from a single source.</p>
+<p><lord-icon src="https://cdn.lordicon.com/zllgguxq.json" trigger="loop"></lord-icon> It plugs-in most coding editors like VS Code, Jupyter, RStudio and more but code is not necessary to make it work.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="how-does-it-work" class="slide level2">
+<h2>How does it Work?</h2>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="https://ivelasq.quarto.pub/intro-to-quarto/images/markdown-text.png" class="fragment"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="https://ivelasq.quarto.pub/intro-to-quarto/images/yaml.png" class="fragment"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="https://ivelasq.quarto.pub/intro-to-quarto/images/code-chunks.png" class="fragment"></p>
+</div>
+</div>
+</div>
+<div class="attribution">
+<p>Isabella Velásquez: <a href="https://ivelasq.quarto.pub/intro-to-quarto">Intro to Quarto</a></p>
+</div>
+</section>
+<section id="simple-example" class="slide level2 smaller">
+<h2>Simple Example</h2>
+<div style="width:500px;">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>my_first_quarto.qmd</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="my_first_quarto.qmd"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href=""></a><span class="co">---</span></span>
+<span id="cb1-2"><a href=""></a><span class="an">title:</span><span class="co"> Open and Reproducible Research Outputs with Quarto</span></span>
+<span id="cb1-3"><a href=""></a><span class="an">author:</span><span class="co"> Damien Dupré</span></span>
+<span id="cb1-4"><a href=""></a><span class="an">format:</span></span>
+<span id="cb1-5"><a href=""></a><span class="co">  pdf: default</span></span>
+<span id="cb1-6"><a href=""></a><span class="co">  docx: default</span></span>
+<span id="cb1-7"><a href=""></a><span class="co">  pptx: default</span></span>
+<span id="cb1-8"><a href=""></a></span>
+<span id="cb1-9"><a href=""></a><span class="an">bibliography:</span><span class="co"> bibliography.bib</span></span>
+<span id="cb1-10"><a href=""></a><span class="co">---</span></span>
+<span id="cb1-11"><a href=""></a></span>
+<span id="cb1-12"><a href=""></a><span class="fu">## Abstract </span></span>
+<span id="cb1-13"><a href=""></a></span>
+<span id="cb1-14"><a href=""></a>My presentation will focus on **how Quarto </span>
+<span id="cb1-15"><a href=""></a>facilitates transparent workflows and shareable </span>
+<span id="cb1-16"><a href=""></a>outputs**. The key impact highlighted will be enhanced </span>
+<span id="cb1-17"><a href=""></a>research *reproducibility*, broader *dissemination*, and </span>
+<span id="cb1-18"><a href=""></a>increased *verifiability*, thereby expanding the reach </span>
+<span id="cb1-19"><a href=""></a>and trustworthiness of scholarly work <span class="co">[</span><span class="ot">@dupre2025open</span><span class="co">]</span>.</span>
+<span id="cb1-20"><a href=""></a></span>
+<span id="cb1-21"><a href=""></a><span class="fu">## Research Overview</span></span>
+<span id="cb1-22"><a href=""></a></span>
+<span id="cb1-23"><a href=""></a>This communication **will showcase how open research </span>
+<span id="cb1-24"><a href=""></a>practices are embedded in my work**, which spans psychology, </span>
+<span id="cb1-25"><a href=""></a>focusing on AI-driven emotion recognition from physiological</span>
+<span id="cb1-26"><a href=""></a>and facial cues, and data science support for Business School</span>
+<span id="cb1-27"><a href=""></a>projects in Economics, Accounting, and Public Policy.</span>
+<span id="cb1-28"><a href=""></a></span>
+<span id="cb1-29"><a href=""></a>To learn more about Quarto see <span class="ot">&lt;https://quarto.org&gt;</span>.</span>
+<span id="cb1-30"><a href=""></a></span>
+<span id="cb1-31"><a href=""></a><span class="fu">## References</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<p><img data-src="img/pdf.png" class="absolute fragment" style="top: 80px; right: 290px; width: 250px; " data-fragment-index="1"> <img data-src="img/docx.png" class="absolute fragment" style="top: 180px; right: 50px; width: 250px; " data-fragment-index="1"> <img data-src="img/pptx.png" class="absolute fragment" style="top: 350px; right: 250px; width: 250px; " data-fragment-index="1"></p>
+</section>
+<section>
+<section id="quarto-in-my-research" class="title-slide slide level1 center">
+<h1>Quarto in my Research</h1>
+
+</section>
+<section id="research-papers" class="slide level2">
+<h2>Research Papers</h2>
+<div class="scroll-container" style="overflow-y: scroll; height: 500px; width: 500px">
+<p><img data-src="img/paper_quarto.png"></p>
+</div>
+<p><img data-src="img/paper_1.png" class="absolute" style="top: 80px; right: 290px; width: 250px; "> <img data-src="img/paper_2.png" class="absolute" style="top: 180px; right: 50px; width: 250px; "> <img data-src="img/paper_3.png" class="absolute" style="top: 350px; right: 250px; width: 250px; "></p>
+</section>
+<section id="presentations" class="slide level2">
+<h2>Presentations</h2>
+<div class="absolute" style="top: 80px; left: 0px; ">
+<iframe src="https://damien-dupre.github.io/cloud_powered_equity" width="500" height="300"></iframe>
+</div>
+<div class="absolute" style="top: 80px; left: 500px; ">
+<iframe src="https://damien-dupre.github.io/cere2025_workshop/output/slides.html" width="500" height="300"></iframe>
+</div>
+<div class="absolute" style="top: 400px; left: 250px; ">
+<iframe src="https://damien-dupre.github.io/pint_of_science/#/section" width="500" height="300"></iframe>
+</div>
+<div class="attribution">
+<p><a href="https://github.com/damien-dupre/cloud_powered_equity" class="uri">https://github.com/damien-dupre/cloud_powered_equity</a></p>
+<p><a href="https://github.com/damien-dupre/cere2025_workshop" class="uri">https://github.com/damien-dupre/cere2025_workshop</a></p>
+<p><a href="https://github.com/damien-dupre/pint_of_science" class="uri">https://github.com/damien-dupre/pint_of_science</a></p>
+</div>
+</section>
+<section id="websites" class="slide level2">
+<h2>Websites</h2>
+<div class="absolute" style="top: 80px; left: 0px; ">
+<iframe src="https://damien-dupre.github.io/" width="500" height="300"></iframe>
+</div>
+<div class="absolute" style="top: 80px; left: 500px; ">
+<iframe src="https://www.isre2024.org/" width="500" height="300"></iframe>
+</div>
+<div class="absolute" style="top: 400px; left: 250px; ">
+<iframe src="https://www.cere2025.com/" width="500" height="300"></iframe>
+</div>
+<div class="attribution">
+<p><a href="https://github.com/damien-dupre/damien-dupre.github.io" class="uri">https://github.com/damien-dupre/damien-dupre.github.io</a></p>
+<p><a href="https://github.com/garymckeown/ISRE24" class="uri">https://github.com/garymckeown/ISRE24</a></p>
+<p><a href="https://github.com/damien-dupre/cere2025" class="uri">https://github.com/damien-dupre/cere2025</a></p>
+</div>
+</section>
 <section id="section" class="slide level2" data-background="#43464B">
 <h2></h2>
 <p><br></p>
@@ -149,7 +378,7 @@ DCU Business School
 <p><strong>and don’t hesitate to ask if you have any questions!</strong></p>
 <p><img data-src="https://damien-dupre.github.io/assets/404.gif" style="border-radius:10%;;width:50.0%"></p>
 </div>
-<div class="quarto-layout-panel" data-layout="[ 0.47, 0.53 ]">
+<div class="quarto-layout-panel" data-layout="[0.47, 0.53]">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 47.0%;justify-content: flex-start;">
 <p><a href="https://github.com/damien-dupre"><i class="fa-brands fa-github" aria-label="github"></i> <span class="citation" data-cites="damien-dupre">@damien-dupre</span></a><br>
@@ -161,8 +390,13 @@ DCU Business School
 </div>
 </div>
 </div>
+<div class="cell">
+<div class="cell-output-display">
 
-</section>
+</div>
+</div>
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/logo.jpg" class="slide-logo"></p>
@@ -178,6 +412,7 @@ DCU Business School
   <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-attribution/attribution.js"></script>
   <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -370,7 +605,7 @@ DCU Business School
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealAttribution, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -379,6 +614,44 @@ DCU Business School
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
