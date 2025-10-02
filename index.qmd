@@ -63,7 +63,7 @@ Quarto is an **open-source scientific and technical publishing system** that bui
 
 {{< li zllgguxq trigger=loop >}} It uses plain text but can output PDF, Word, PowerPoint, or HTML files from a single source.
 
-{{< li zllgguxq trigger=loop >}} It plugs-in most coding editors like VS Code, Jupyter, RStudio and more but code is not necessary to make it work.
+{{< li zllgguxq trigger=loop >}} It plugs into most coding editors like VS Code, Jupyter, RStudio and more but code is not necessary to make it work.
 :::
 
 ## How does it Work?
@@ -120,7 +120,7 @@ To learn more about Quarto see <https://quarto.org>.
 
 ![](img/pdf.png){.absolute top=80 right=290 width="250" .fragment fragment-index=1}
 ![](img/docx.png){.absolute top=180 right=50 width="250" .fragment fragment-index=1}
-![](img/pptx.png){.absolute top=350 right=250 width="250".fragment fragment-index=1}
+![](img/pptx.png){.absolute top=350 right=250 width="250" .fragment fragment-index=1}
 
 # Quarto in my Research
 
@@ -195,7 +195,7 @@ To learn more about Quarto see <https://quarto.org>.
 <br>
 
 :::{.center}
-**Thanks for your attention **
+**Thanks for your attention**
 
 **and don't hesitate to ask if you have any questions!**
 
